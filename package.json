@@ -1,0 +1,31 @@
+{
+  "name": "altamimi-app",
+  "version": "1.0.0",
+  "description": "تطبيق التميمي - موقع إلكتروني متجاوب باللغة العربية",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "firebase serve",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "firebase deploy",
+    "serve": "firebase serve --only hosting"
+  },
+  "keywords": [
+    "website",
+    "arabic",
+    "responsive",
+    "firebase",
+    "altamimi"
+  ],
+  "author": "Altamimi Team",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^12.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qusailab93/altamimi.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
